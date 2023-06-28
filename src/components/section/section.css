@@ -1,0 +1,19 @@
+.section-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg,var(--main-bg-color-dark), var(--main-bg-color) 90%);
+    height: 100vh;
+   
+}
+.section-container img{
+    width: 300px;
+    height: auto;
+}
+
+@media (min-width:700px) {
+    .section-container img{
+        width: 700px;
+        height: auto;
+    }
+}

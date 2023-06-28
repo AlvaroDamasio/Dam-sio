@@ -1,5 +1,17 @@
+:root{
+  --main-bg-color: #adb5bd;
+  --main-bg-color-dark: #212529 ;
+  --main-bg-color-light: #e9ecef;
+
+}
+
+h1 ,h2, p {
+  color: white;
+} 
 .App {
-  text-align: center;
+  position: relative;
+  
+  
 }
 
 .App-logo {

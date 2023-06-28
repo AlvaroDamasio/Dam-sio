@@ -1,0 +1,38 @@
+.header-container{
+    position: absolute;
+    z-index: 2;
+    width: 90%;
+    padding: 20px;
+    padding: 20px;
+    display: none;
+
+    
+    
+}
+@media (min-width: 700px) {
+    .header-container{
+        display: block;
+    }
+}
+
+
+.header-container ul {
+    
+    display: flex;
+    justify-content: space-between;
+}
+.header-container ul li {
+    
+    
+    list-style: none;
+    
+    
+}
+.header-container ul li a {
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
