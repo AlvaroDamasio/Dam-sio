@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Damasio/static/css/main.68f57827.css",
+    "main.js": "/Damasio/static/js/main.e933ea92.js",
+    "static/js/787.be55e6d0.chunk.js": "/Damasio/static/js/787.be55e6d0.chunk.js",
+    "static/media/MacBook Air - 1 2.png": "/Damasio/static/media/MacBook Air - 1 2.d2fac8e411a832a345d5.png",
+    "static/media/background.png": "/Damasio/static/media/background.18d890c1b6d93bed078a.png",
+    "static/media/tablet image.png": "/Damasio/static/media/tablet image.20d22220a90cd2e25b7c.png",
+    "static/media/tablet PROJECT.png": "/Damasio/static/media/tablet PROJECT.2092f7cf4f78fd4b1a02.png",
+    "static/media/tablet-image.png": "/Damasio/static/media/tablet-image.7baeae477b11515fea20.png",
+    "static/media/logo.png": "/Damasio/static/media/logo.b05275675cf472d603d9.png",
+    "static/media/pdvPicture.png": "/Damasio/static/media/pdvPicture.ce45525dcf88e984b7b6.png",
+    "index.html": "/Damasio/index.html",
+    "main.68f57827.css.map": "/Damasio/static/css/main.68f57827.css.map",
+    "main.e933ea92.js.map": "/Damasio/static/js/main.e933ea92.js.map",
+    "787.be55e6d0.chunk.js.map": "/Damasio/static/js/787.be55e6d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68f57827.css",
+    "static/js/main.e933ea92.js"
+  ]
+}
