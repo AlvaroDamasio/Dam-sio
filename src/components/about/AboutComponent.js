@@ -6,9 +6,26 @@ import { AboutContainer, ImageContainer, TitleContainer, Button, ImageCard,SubTi
 import { Title } from "../utils/Title"
 import { Paragraph } from "../utils/paragraph"
 import pdvPicture from "../../assets/pdvPicture.png"
+import {gsap} from 'gsap'
+import {ScrollTrigger} from 'gsap/ScrollTrigger'
+import {useLayoutEffect} from 'react'
+
+
 export default function About(){
+    useLayoutEffect(()=>{
+        gsap.registerPlugin(ScrollTrigger) 
+        gsap.to('.ImageCard', {
+            scrollTrigger:{
+                trigger: ".about",
+                scrub:true
+            },
+            x: 0,
+            opacity:1,
+            rotate:"0deg",
+        })    
+    }, [])
     return(
-        <AboutContainer>
+        <AboutContainer className="about">
             <TitleContainer>
             
                 <div>
@@ -33,7 +50,7 @@ export default function About(){
             </SubTitleContainer>
 
             <ImageContainer>
-                <ImageCard>
+                <ImageCard className="ImageCard">
                     <img src={image}></img>
                     <h2>
                         Catálogo
@@ -42,14 +59,14 @@ export default function About(){
                     <p>Site de Catalogo de uma loja de bonés feito com react, styled-component </p>
                     <div>
                         <Button>
-                            <a>
+                            <a href="https://github.com/AlvaroDamasio/catalogo/">
                                 <h3>
                                     Code
                                 </h3>
                             </a>
                         </Button>
                         <Button>
-                        <a>
+                        <a href="https://alvarodamasio.github.io/catalogo/">
                                 <h3>
                                     Visitar
                                 </h3>
@@ -58,7 +75,7 @@ export default function About(){
                     </div>
                 </ImageCard>
 
-                <ImageCard>
+                <ImageCard className="ImageCard">
                     <img src={pdvPicture}></img>
                     <h2>
                         PDV e ERP

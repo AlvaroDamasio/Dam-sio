@@ -80,8 +80,7 @@ export const ImageContainer = styled.div `
     display: flex;
     flex-direction: column;
     padding: 10px;
-    ;
-
+    
     @media (min-width: 800px) {
         display: grid;
         grid-template-areas: 
@@ -103,6 +102,15 @@ export const ImageCard = styled.div`
     padding-top: 3px;
     text-align: center;
     padding: 10px;
+    transform: translateX(-700px);
+    opacity: 0;
+    
+
+    a{
+        text-decoration: none;
+        color: var(--main-bg-color-dark);
+    }
+
 
 
     @media (min-width: 700px){

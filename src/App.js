@@ -9,13 +9,15 @@ import Contato from './components/contato/ContatoComponent';
 import TimeLine from './components/timeLine/TimeLine';
 
 
+
 function App() {
+  
   return (
     <div className="App">
       <Header/>
       <Home/>
       <Section/>
-      <About/>
+      <About />
       <TimeLine/>
       <Contato/>
       
