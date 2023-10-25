@@ -2,8 +2,7 @@
 import imageTablet from "../../assets/tablet image.png"
 import projeto from "../../assets/tablet PROJECT.png"
 import image from "../../assets/MacBook Air - 1 2.png"
-import { AboutContainer, ImageContainer, TitleContainer, Button, ImageCard,SubTitleContainer } from './aboutStyles'
-import { Title } from "../utils/Title"
+import { AboutContainer,Title, Article, FlexContainer,Card, BackCard, CardContainer ,TitleContainer, SubTitle, Button } from './aboutStyles'
 import { Paragraph } from "../utils/paragraph"
 import pdvPicture from "../../assets/pdvPicture.png"
 import {gsap} from 'gsap'
@@ -45,83 +44,37 @@ export default function About(){
     })
     return(
         <AboutContainer className="about">
-            <TitleContainer>
-            
-                <div>
+            <FlexContainer>
+                <TitleContainer>
+                    <SubTitle>
+                        Project One
+                    </SubTitle>
                     <Title>
-                        SOBRE
+                        Infos of The Project,
+                        of Web Site, 
+                        for you
                     </Title>
-                </div>
-                
-                <div className="about-sobremim">
-                    <Title>Um pouco sobre mim</Title>
-                    <Paragraph>Meu nome é Álvaro Damásio Silva Celestino, sou formado em análise e Desenvolvimento de sistemas e atuo na área de desenvolvimento de sistemas e criação de sites comérciais e pessoais  </Paragraph>
-                </div>
-            </TitleContainer>
+                    <Article>
+                        Branding, website, design,Development
+                    </Article>
 
-            <SubTitleContainer>
-                <h4>
-                    Projetos selecionados
-                </h4>
-                <Title>
-                    Estudos de Caso
-                </Title>
-            </SubTitleContainer>
+                    <Button>
+                        <Article>
+                            View More
+                        </Article>
+                    </Button>
+                    
+                </TitleContainer>
 
-            <ImageContainer className="imageContainer">
-                <ImageCard className="ImageCard" ref = {el}>
-                    <img src={image}></img>
-                    <h2>
-                        Catálogo
-                    </h2>
-
-                    <p>Site de Catalogo de uma loja de bonés feito com react, styled-component </p>
-                    <div>
-                        <Button>
-                            <a href="https://github.com/AlvaroDamasio/catalogo/">
-                                <h3>
-                                    Code
-                                </h3>
-                            </a>
-                        </Button>
-                        <Button>
-                        <a href="https://alvarodamasio.github.io/catalogo/">
-                                <h3>
-                                    Visitar
-                                </h3>
-                            </a>
-                        </Button>
-                    </div>
-                </ImageCard>
-
-                <ImageCard className="ImageCard">
-                    <img src={pdvPicture}></img>
-                    <h2>
-                        PDV e ERP
-                    </h2>
-                    <p>Projeto de um programa de frente de caixa, desenvolvido em electron, e typescript </p>
-                    <div>
-                        <Button>
-                            <a>
-                                <h3>
-                                    Code
-                                </h3>
-                            </a>
-                        </Button>
-                        <Button>
-                        <a>
-                                <h3>
-                                    Visitar
-                                </h3>
-                            </a>
-                        </Button>
-                    </div>
-                </ImageCard>
-                
-
-                
-                
-            </ImageContainer>
+                <CardContainer>
+                    <Card><img src={image}/></Card>
+                    <BackCard></BackCard>
+                </CardContainer>
+               
+            </FlexContainer>
+            
+            
+            
         </AboutContainer>
     )
 }
