@@ -1,4 +1,4 @@
-import tabletImage from "../../assets/tablet-image.png"
+import tabletImage from "../../assets/MacBook Air - 1 2.png"
 import "./section.css"
 
 

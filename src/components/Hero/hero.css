@@ -1,0 +1,59 @@
+.container-hero{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto ;
+    
+    
+}
+.container-paralax{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.paralax-text{
+    position: absolute;
+    font-family: "poppins", sans-serif;
+    font-size: 20vw;
+    font-weight: 900;
+}
+.paralax-text::after{
+    content: attr(text);
+    position: absolute;
+    z-index: 100;
+    top:  0;
+    left: 0;
+    color: transparent;
+    -webkit-text-stroke: 0.15vw black;
+}
+
+.container-hero img{
+    width: 66vw;
+    animation: sneakerAnimation 5s cubic-bezier(0.25, 1, 0.5, 1) infinite alternate;
+}
+@keyframes sneakerAnimation{
+    0%, 10%{
+        transform: translate(100vw, 0) rotate(15deg);
+    }
+    90%, 100%{
+        transform: translate(-5w, -5w) rotate(-180deg);
+    }
+}
+
+@media (min-width: 700px ) {
+    .paralax-text{
+        font-size: 10vw;
+    }
+    .container-hero{
+        height: 100vh;
+    }
+    .container-hero img{
+        width: 30vw;
+    }
+}

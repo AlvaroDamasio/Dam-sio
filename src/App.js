@@ -3,10 +3,10 @@ import './App.css';
 import About from './components/about/AboutComponent';
 import Header from './components/header/HeaderComponent';
 import Home from './components/home/HomeComponent';
-import Section from './components/section/SectionComponent';
 import Contato from './components/contato/ContatoComponent';
 
 import TimeLine from './components/timeLine/TimeLine';
+import Hero from './components/Hero/HeroComponent';
 
 
 
@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Header/>
       <Home/>
-      <Section/>
+      <Hero/>
       <About />
       <TimeLine/>
       <Contato/>

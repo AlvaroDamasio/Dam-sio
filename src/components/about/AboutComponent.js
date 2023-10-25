@@ -9,9 +9,12 @@ import pdvPicture from "../../assets/pdvPicture.png"
 import {gsap} from 'gsap'
 import {ScrollTrigger} from 'gsap/ScrollTrigger'
 import {useLayoutEffect} from 'react'
+import { useRef } from "react"
 
 
 export default function About(){
+    const el = useRef()
+
     useLayoutEffect(()=>{
         gsap.registerPlugin(ScrollTrigger) 
         gsap.to('.ImageCard', {
@@ -24,6 +27,22 @@ export default function About(){
             rotate:"0deg",
         })    
     }, [])
+
+    useLayoutEffect(()=>{
+        gsap.registerPlugin(ScrollTrigger) 
+        gsap.to('.imageContainer', {
+            scrollTrigger:{
+                trigger: ".about",
+                scrub:true
+            },
+            x: 0,
+            opacity:1,
+            rotate:"0deg",
+            width: "100%"
+            
+            
+        })
+    })
     return(
         <AboutContainer className="about">
             <TitleContainer>
@@ -49,8 +68,8 @@ export default function About(){
                 </Title>
             </SubTitleContainer>
 
-            <ImageContainer>
-                <ImageCard className="ImageCard">
+            <ImageContainer className="imageContainer">
+                <ImageCard className="ImageCard" ref = {el}>
                     <img src={image}></img>
                     <h2>
                         Catálogo
