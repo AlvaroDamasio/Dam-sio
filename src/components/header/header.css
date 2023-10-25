@@ -1,5 +1,5 @@
 .header-container{
-    position: absolute;
+    position: fixed;
     z-index: 2;
     width: 90%;
     padding: 20px;
