@@ -77,29 +77,10 @@ export const BackCard = styled.div`
     top: -30px;
     left: 90px;
 `
-export const ImageContainer = styled.div `
 
-    border: 1px, white;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    height: 100%;
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    
-    @media (min-width: 800px) {
-        display: grid;
-        grid-template-areas: 
-        "card card"
-        "card card";
-    }
-
-`
 
 export const Button = styled.div`
-    background: linear-gradient(180deg, #FCADAD 0%, rgba(68, 160, 211, 0.00) 100%);
+    background-color: #48A2D2;
     cursor: pointer;
     width: 209px;
     height: 57px;
