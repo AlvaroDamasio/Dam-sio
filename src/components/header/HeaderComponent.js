@@ -1,6 +1,7 @@
 import { useLayoutEffect } from "react"
 import "./header.css"
 import { gsap } from "gsap"
+import logo from "../../assets/logo.png"
 
 export default function Header(){
     useLayoutEffect(()=>{
@@ -50,7 +51,7 @@ export default function Header(){
                 </li>
 
                 <li className="name">
-                    <a href="#">Alvaro Damasio</a>                  
+                    <a href="#"><img src={logo}/></a>                  
                 </li>
 
                 <li className="contato">
