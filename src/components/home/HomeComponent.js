@@ -16,7 +16,34 @@ export default function Home (){
             duration: 4,
             text: "SEU NOVO WEB DESIGNER",
             ease: "none",
-          });
+            repeat:1,
+            repeatDelay:2,
+            yoyo:true
+            
+          }, 3);
+        
+
+        gsap.fromTo('.logo', {
+            opacity: 0,
+            y: 200,
+            ease: "Power1.easeInOut",
+            },
+            {opacity: 1,
+                y: 0,
+                ease: "Power1.easeInOut"
+            },1.5
+        )  
+
+        gsap.fromTo('.text', {
+            opacity: 0,
+            y: 200,
+            ease: "Power1.easeInOut",
+            },
+            {opacity: 1,
+                y: 0,
+                ease: "Power1.easeInOut"
+            },1.8
+        ) 
     },[])
     return(
         <div className = "home-container">
