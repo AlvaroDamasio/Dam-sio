@@ -48,10 +48,44 @@ export default function Home (){
     return(
         <div className = "home-container">
             
-            <div className= "home-logo">
-                <img src = {logo} className="logo" alt="alvaro"></img>
-                <h1 className="text">ANALISTA E DESENVOLVEDOR DE SISTEMAS</h1>
-            </div>
+            
+                <div>
+                    <h3 className="subtitle">
+                    I am a full stack 
+                    developer and  web design
+                    </h3>
+                </div>
+                <div className="title">
+                    <h1>
+                        Hello
+                    </h1>
+                    <h1>
+                        I am
+                    </h1>
+                    <h1>
+                        Álvaro Damásio
+                    </h1>
+                </div>
+                <div className="media">
+                    <ul>
+                        <li>
+                            <a>
+                                Github
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Instagram
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            
         </div>
     )
 }
