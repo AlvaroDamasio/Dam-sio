@@ -35,6 +35,15 @@ export default function Header(){
             ease: "Power1.easeInOut"
         },1)
 
+        gsap.fromTo('.header-container', {
+            scaleX: 0,
+            ease: "Power1.easeInOut",
+        },
+        {opacity: 1,
+            scaleX: 1,
+            ease: "Power1.easeInOut"
+        },0.3)
+
 
 
 
@@ -51,7 +60,9 @@ export default function Header(){
                 </li>
 
                 <li className="name">
-                    <a href="#"><img src={logo}/></a>                  
+                    <a href="#">
+                        Home
+                    </a>                  
                 </li>
 
                 <li className="contato">
