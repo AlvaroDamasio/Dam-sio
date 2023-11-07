@@ -4,6 +4,10 @@ import {gsap} from 'gsap'
 import { TextPlugin } from "gsap/all"
 import {useLayoutEffect} from 'react'
 import { Draggable } from "gsap/Draggable"
+import video from "../../assets/flower.mp4"
+import windowImage from "../../assets/window.png"
+
+
 
 
 
@@ -11,81 +15,67 @@ export default function Home (){
     
 
     useLayoutEffect(()=>{
-        gsap.registerPlugin(TextPlugin)
-        gsap.to(".text", {
+        /*gsap.registerPlugin(TextPlugin)
+        gsap.to("", {
             duration: 4,
-            text: "SEU NOVO WEB DESIGNER",
+            text: "",
             ease: "none",
             repeat:1,
             repeatDelay:2,
             yoyo:true
             
           }, 3);
+        */
         
 
-        gsap.fromTo('.logo', {
-            opacity: 0,
-            y: 200,
-            ease: "Power1.easeInOut",
-            },
-            {opacity: 1,
-                y: 0,
-                ease: "Power1.easeInOut"
-            },1.5
-        )  
+       gsap.to('.image-container',{
+        scale:52,
+        ease:"ease",
+        scrollTrigger:{
+            trigger:".video-section",
+            scrub:1,
+            start:"top top",
+            end: "bottom",
+            pin: true
+        }
+       })
 
-        gsap.fromTo('.text', {
-            opacity: 0,
-            y: 200,
-            ease: "Power1.easeInOut",
-            },
-            {opacity: 1,
-                y: 0,
-                ease: "Power1.easeInOut"
-            },1.8
-        ) 
+       
+        
     },[])
     return(
-        <div className = "home-container">
-            
-            
-                <div>
-                    <h3 className="subtitle">
-                    I am a full stack 
-                    developer and  web design
-                    </h3>
+        
+        <div className="wrapper">
+            <section className="video-section">
+                <div className="video-container">
+                    <video src={video} muted loop></video>
                 </div>
-                <div className="title">
-                    <h1>
-                        Hello
-                    </h1>
-                    <h1>
-                        I am
-                    </h1>
-                    <h1>
-                        Álvaro Damásio
-                    </h1>
+                <div className="image-container">
+                    <img src={windowImage}></img>
                 </div>
-                <div className="media">
-                    <ul>
-                        <li>
-                            <a>
-                                Github
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                                Facebook
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                                Instagram
-                            </a>
-                        </li>
-                    </ul>
+                <div class="text-content">
+                    <div class="img_txt">
+                        <div class="title sm left">
+                            <span>between</span>
+                        </div>
+                        <div class="title bg left ">
+                            <span>Reality</span>
+                        </div>
+                        <div class="title bg right n">
+                            <span>&</span>
+                        </div>
+                        <div class="title bg right n">
+                            <span>Dream</span>
+                        </div>
+                    </div>
+                    <p class="txt-bottom">
+                        shots that will change your mind
+                    </p>
                 </div>
-            
+
+            </section>
         </div>
+        
+        
     )
 }
