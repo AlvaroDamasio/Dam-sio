@@ -1,0 +1,31 @@
+
+.racesWrapper{
+    display: flex;
+    height: 300vh;
+    background-color: aquamarine;
+    width: 300vw;
+    position: relative;
+}
+.races{
+    display: flex;
+    width: 100%;
+}
+
+.races .about-section-one{
+    background-color: rgb(51, 212, 30);
+    width: 100vw;
+    height: 100vh;
+} 
+.races .about-section-two{
+    background-color: rgb(61, 230, 207);
+    width: 100vw;
+    height: 100vh;
+} 
+.races .about-section-tree{
+    background-color: rgb(144, 235, 41);
+    width: 100vw;
+    height: 100vh;
+} 
+
+
+

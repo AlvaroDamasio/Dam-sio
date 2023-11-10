@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const AboutContainer = styled.div `
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -24,7 +24,6 @@ export const CardContainer= styled.div `
 `
 
 export const TitleContainer = styled.div `   
-    
     width: 50%;
     height: 100%;
     gap: 50px;
@@ -52,7 +51,7 @@ export const Title = styled.h1`
     line-height: normal; 
 `
 export const Card = styled.div`
-    position: absolute;
+    position: relative;
     z-index: 2;
     width: 405px;
     height: 276px;

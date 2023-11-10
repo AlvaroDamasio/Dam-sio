@@ -1,19 +1,44 @@
-
-import imageTablet from "../../assets/tablet image.png"
-import projeto from "../../assets/tablet PROJECT.png"
-import image from "../../assets/MacBook Air - 1 2.png"
-import { AboutContainer,Title, Article, FlexContainer,Card, BackCard, CardContainer ,TitleContainer, SubTitle, Button } from './aboutStyles'
-import { Paragraph } from "../utils/paragraph"
-import pdvPicture from "../../assets/pdvPicture.png"
 import {gsap} from 'gsap'
 import {ScrollTrigger} from 'gsap/ScrollTrigger'
 import {useLayoutEffect} from 'react'
 import { useRef } from "react"
+import './about.css'
 
 
 export default function About(){
+    gsap.registerPlugin(ScrollTrigger)
     const el = useRef()
 
+    useLayoutEffect(()=>{
+
+        const races = document.querySelector(".races")
+        let racesWidth = races.offsetWidth;
+        let amountToScroll = racesWidth - window.innerWidth;
+
+        const tween = gsap.to(races, {
+            x: -amountToScroll,
+            ease: "none",
+        });
+
+       
+
+        
+        ScrollTrigger.create({
+            trigger:".races",
+            start:'.races',
+            end:() => "+=" + amountToScroll,
+            pin: true,
+            animation: tween,
+            scrub: 1
+
+        })
+
+
+        
+        
+        
+    }, [])
+/*
     useLayoutEffect(()=>{
         gsap.registerPlugin(ScrollTrigger) 
         gsap.to('.ImageCard', {
@@ -32,7 +57,8 @@ export default function About(){
         gsap.to('.imageContainer', {
             scrollTrigger:{
                 trigger: ".about",
-                scrub:true
+                scrub:true,
+                
             },
             x: 0,
             opacity:1,
@@ -41,40 +67,30 @@ export default function About(){
             
             
         })
-    })
+    })*/
     return(
-        <AboutContainer className="about">
-            <FlexContainer>
-                <TitleContainer>
-                    <SubTitle>
-                        Project One
-                    </SubTitle>
-                    <Title>
-                        Infos of The Project,
-                        of Web Site, 
-                        for you
-                    </Title>
-                    <Article>
-                        Branding, website, design,Development
-                    </Article>
 
-                    <Button>
-                        <Article>
-                            View More
-                        </Article>
-                    </Button>
-                    
-                </TitleContainer>
+        <div className="racesWrapper">
+            <div className='races'>
+                <section className="about-section-one">
+                    <h1>
+                        about
+                    </h1>
+                </section>
 
-                <CardContainer>
-                    <Card><img src={image}/></Card>
-                    <BackCard></BackCard>
-                </CardContainer>
-               
-            </FlexContainer>
+                <section className="about-section-two">
+                    <h1>
+                        about
+                    </h1>
+                </section>
+
+                <section className="about-section-tree">
+                    <h1>
+                        about
+                    </h1>
+                </section>
+            </div>
             
-            
-            
-        </AboutContainer>
+        </div>
     )
 }
