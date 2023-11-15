@@ -1,10 +1,11 @@
 import "./hero.css"
+import monster from '../../assets/monster hand.png'
 export default function Hero(){
     return(
         <div className="container-hero">
             <div className="hero-title-wrapper">
-                <h1>OLÁ SOU</h1>
-                <h1> SEU NOVO WEB-DESIGN</h1>
+                <h1></h1>
+                <h1>OLÁ SOU SEU NOVO WEB-DESIGN</h1>
                 <h1></h1>
             </div>
             <div className="hero-subtitle">
@@ -21,6 +22,8 @@ export default function Hero(){
                     </h3>
                 </a>
             </div>
+
+            <img src={monster}></img>
         </div>
     )
 }

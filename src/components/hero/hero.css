@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Oswald:wght@600&family=Roboto+Condensed:wght@700&family=Stalinist+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Oswald:wght@600&family=Roboto+Condensed:wght@700&family=Staatliches&display=swap');
 .container-hero{
+    position: relative;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -26,7 +27,7 @@
     padding: 0;
 }
 .hero-subtitle{
-    width: 80%;
+    width: 60%;
     font-family: 'Staatliches'; 
     font-size: 22px;
 }
@@ -44,4 +45,11 @@
 }
 .hero-button h3{
     font-size: 30px;
+}
+.container-hero img{
+    position: absolute;
+    width: 300px;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
 }
