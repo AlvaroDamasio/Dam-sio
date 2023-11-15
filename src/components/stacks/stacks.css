@@ -1,0 +1,18 @@
+.stack-container{
+    
+    width: 100vw;
+    height: 30vh;
+    background-color: var(--main-dark-color);
+    margin-top: 100px;
+    overflow: hidden;
+}
+.stacks{
+    width: 200vw;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--main-dark-color);
+}
+.stack-container h1{
+    font-family: 'staatliches';
+    color: var(--main-four-color)
+}
