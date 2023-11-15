@@ -45,30 +45,39 @@ export default function Header(){
         },0.3)
 
 
-
-
-
-
     })
 
 
     return(
         <div className = "header-container">
-            <ul>
-                <li className="projetos">
-                    <a href="#about-container">Projetos</a>
-                </li>
-
+            <nav>
+                <a>
+                    <h1>
+                        Logo
+                    </h1>
+                </a>
+                <ul>
                 <li className="name">
-                    <a href="#">
-                        Home
-                    </a>                  
-                </li>
+                        <a href="#">
+                            Home
+                        </a>                  
+                    </li>
+                    <li className="name">
+                        <a href="#">
+                            Projetos
+                        </a>                  
+                    </li>
 
-                <li className="contato">
-                   <a href="#">Contato</a>
-                </li>
-            </ul>
+                    <li className="contato">
+                        <a href="#">Contato</a>
+                    </li>
+                </ul>
+                <div className="button">
+                    FALE COMIGO
+                </div>
+
+                
+            </nav>
         </div>
     )
 }

@@ -1,55 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Oswald:wght@600&family=Roboto+Condensed:wght@700&family=Stalinist+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Oswald:wght@600&family=Roboto+Condensed:wght@700&family=Staatliches&display=swap');
 :root{
-  --main-bg-color: #adb5bd;
-  --main-bg-color-dark: #212529 ;
-  --main-bg-color-light: #e9ecef;
+  --main-ligth-color: #FFFFFF;
+  --main-dark-color: #000000 ;
+  --main-terciary-color: #FEED01;
 
 }
 
 
-h1 ,h2, p {
-  color: white;
-  font-family: 'Oswald', sans-serif;
-  font-family: 'Roboto Condensed', sans-serif;
-
-} 
-.App {
-  position: relative;
-  
-  
-}
 
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

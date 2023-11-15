@@ -4,35 +4,48 @@
     width: 99%;
     display: flex;
     justify-content: center;
-    margin: 5px;
+    margin: 10px;
+    
+    width: 100vw;
+    height: 65px;
+    
 }
 
+.header-container h1{
+    color: white;
+}
 
-
-.header-container ul {
+.header-container ul{
     width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.header-container ul a {
+    font-family:'Staatliches'; 
+    text-decoration: none;
+    color: var(--main-ligth-color);
+}
+.header-container .button{
+    width: 20%;
+    height: 30px;
+    background-color: var(--main-terciary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-family:'Staatliches'; 
+    
+}
+
+.header-container nav {
+    width: 70%;
+    height: 100%;
+    margin: 0;
     align-items: center;
     justify-content: space-around;
     display: flex;
-    padding: 0 20px;
-    
-}
-.header-container ul li {
-    opacity: 1;
-    list-style: none; 
-}
-.header-container ul li a {
-    text-decoration: none;
-    color: #01BDCE;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    
-}
+    background-color: black;
+    border-radius: 30px;
 
-.header-container ul li a img{
-    width: 20%;
-    height: 35%;
-
+    
 }
