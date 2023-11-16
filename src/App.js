@@ -13,6 +13,9 @@ import { useLayoutEffect } from 'react';
 import Ilustration from './Ilustration/Ilustration';
 import Stacks from './components/stacks/Stacks';
 import Action from './components/action/Action';
+import Project from './components/projects/Projects';
+import Words from './components/words/Words';
+
 
 
 
@@ -26,7 +29,13 @@ function App() {
       <Ilustration/>
       <Stacks/>
       <Action/>
+      <Project image={""} url="/home"/>
+      <Project position="rigth" image={""} url="/about"/>
+      <Words delay="1"/>
+      <Words delay="3"/>
+      <Words delay="2"/>
       <Contato/>
+  
       
     </div>
   );

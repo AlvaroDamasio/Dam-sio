@@ -1,0 +1,17 @@
+.words-container{
+    width: 100vw;
+    background-color: black;
+    overflow: hidden;
+}
+.row{
+    display: flex;
+    width: 200vw;
+    
+}
+.row h1{
+    color: var(--main-ligth-color);
+    margin: 10px;
+    font-family: Staatliches; 
+    font-size: 142px; 
+
+}
