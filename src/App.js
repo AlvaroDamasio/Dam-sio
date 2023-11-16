@@ -12,6 +12,7 @@ import gsap from 'gsap';
 import { useLayoutEffect } from 'react';
 import Ilustration from './Ilustration/Ilustration';
 import Stacks from './components/stacks/Stacks';
+import Action from './components/action/Action';
 
 
 
@@ -24,6 +25,7 @@ function App() {
       <Hero/>
       <Ilustration/>
       <Stacks/>
+      <Action/>
       <Contato/>
       
     </div>

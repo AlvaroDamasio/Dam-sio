@@ -1,0 +1,55 @@
+.action-container{
+ margin: 0;
+ width: 100vw;
+ height: 100vh;
+ background-color: var(--main-dark-color);
+
+ display: flex;
+ flex-direction: row;
+ 
+}
+
+.action-wrapper{
+    width: 60%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.action-title{
+    width: 100%;
+    margin-left: 50px;
+    
+}
+.action-title h1{
+    color: var(--main-ligth-color);
+    font-size: 60px;
+    font-family: 'Stalinist One', sans-serif,'Staatliches';
+    margin: 0;
+    
+}
+.action-subtitle{
+    width: 60%;
+    height: 10%;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+    color: white;
+}
+.action-subtitle h3{
+    font-size: 30px;
+    font-family: 'Staatliches';
+    
+}
+.yellow {
+    color: var(--main-terciary-color);
+}
+.image{
+    background-color: var(--main-terciary-color);
+    width: 25vw;
+    height: 60vh;
+    margin: 50px;
+    border-radius: 20px;
+    border: 5px solid var(--main-ligth-color);
+}
