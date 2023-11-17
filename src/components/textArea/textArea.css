@@ -1,0 +1,17 @@
+.text-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-dark-color);
+}
+.text{
+    width: 80%;
+    
+}
+.text h1{
+    color: white;
+    font-size: 60px;
+    font-family: Staatliches; 
+}

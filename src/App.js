@@ -15,6 +15,7 @@ import Stacks from './components/stacks/Stacks';
 import Action from './components/action/Action';
 import Project from './components/projects/Projects';
 import Words from './components/words/Words';
+import TextArea from './components/textArea/TextArea';
 
 
 
@@ -34,6 +35,7 @@ function App() {
       <Words delay="1"/>
       <Words delay="3"/>
       <Words delay="2"/>
+      <TextArea/>
       <Contato/>
   
       
