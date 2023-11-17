@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
     width: 100vw;
     height: auto;
-    background-color: var(--main-bg-color-dark);
+    background-color: var(--main-terciary-color);
     display: flex;
     gap: 30px;
     flex-direction: column;
@@ -15,7 +15,7 @@ export const Container = styled.div`
     }
 
     a{
-        color: white;
+        color: var(--main-dark-color);
         text-decoration: none;
     }
 `
