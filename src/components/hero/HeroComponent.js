@@ -15,7 +15,7 @@ export default function Hero(){
                 </h3>
             </div>
             <div className="hero-button">
-                <a>
+                <a href="https://github.com/AlvaroDamasio">
                     <h3>
                         SHOW A EXAMPLE
                     </h3>

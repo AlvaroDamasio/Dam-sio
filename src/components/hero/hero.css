@@ -49,6 +49,10 @@
     cursor: pointer;
 
 }
+.hero-button a{
+    color: var(--main-dark-color);
+    text-decoration: none;
+}
 .hero-button h3{
     font-size: 30px;
     
