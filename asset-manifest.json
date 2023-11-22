@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Damasio/static/css/main.9abf8e02.css",
-    "main.js": "/Damasio/static/js/main.3157229c.js",
+    "main.css": "/Damasio/static/css/main.236f7783.css",
+    "main.js": "/Damasio/static/js/main.63d5a0fe.js",
     "static/js/787.be55e6d0.chunk.js": "/Damasio/static/js/787.be55e6d0.chunk.js",
     "static/media/mokup.jpg": "/Damasio/static/media/mokup.f9105f9db8e6167bdc8d.jpg",
     "static/media/pdv mockup.jpg": "/Damasio/static/media/pdv mockup.3e621a4c1a70680b28b6.jpg",
@@ -9,16 +9,15 @@
     "static/media/monster hand.png": "/Damasio/static/media/monster hand.29bf5a186f631f1fdcee.png",
     "static/media/MacBook Air - 1 2.png": "/Damasio/static/media/MacBook Air - 1 2.d2fac8e411a832a345d5.png",
     "static/media/tablet image.png": "/Damasio/static/media/tablet image.20d22220a90cd2e25b7c.png",
-    "static/media/logo.png": "/Damasio/static/media/logo.b05275675cf472d603d9.png",
     "static/media/pdvPicture.png": "/Damasio/static/media/pdvPicture.ce45525dcf88e984b7b6.png",
     "static/media/Desktop - 2.png": "/Damasio/static/media/Desktop - 2.ee6822d9b5107955f0c2.png",
     "index.html": "/Damasio/index.html",
-    "main.9abf8e02.css.map": "/Damasio/static/css/main.9abf8e02.css.map",
-    "main.3157229c.js.map": "/Damasio/static/js/main.3157229c.js.map",
+    "main.236f7783.css.map": "/Damasio/static/css/main.236f7783.css.map",
+    "main.63d5a0fe.js.map": "/Damasio/static/js/main.63d5a0fe.js.map",
     "787.be55e6d0.chunk.js.map": "/Damasio/static/js/787.be55e6d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9abf8e02.css",
-    "static/js/main.3157229c.js"
+    "static/css/main.236f7783.css",
+    "static/js/main.63d5a0fe.js"
   ]
 }
