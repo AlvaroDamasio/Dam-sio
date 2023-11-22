@@ -35,6 +35,11 @@
     border-radius: 20px;
     font-family:'Staatliches'; 
     
+    
+}
+.header-container .button a {
+    color: var(--main-dark-color);
+    text-decoration: none;
 }
 
 .header-container nav {

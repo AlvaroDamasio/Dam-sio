@@ -1,7 +1,7 @@
 import { useLayoutEffect } from "react"
 import "./header.css"
 import { gsap } from "gsap"
-import logo from "../../assets/logo.png"
+
 
 export default function Header(){
     useLayoutEffect(()=>{
@@ -53,7 +53,7 @@ export default function Header(){
             <nav>
                 <a>
                     <h1>
-                        Logo
+                        ÁLVARO
                     </h1>
                 </a>
                 <ul>
@@ -73,7 +73,10 @@ export default function Header(){
                     </li>
                 </ul>
                 <div className="button">
-                    FALE COMIGO
+                    <a href="https://www.linkedin.com/in/alvaro-damasio-938890224/?originalSubdomain=br">
+                        FALE COMIGO
+                    </a>
+                    
                 </div>
 
                 
