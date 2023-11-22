@@ -6,11 +6,11 @@ export default function Project(props){
             <div className="project-wrapper">
                 <div className={props.position == "rigth" ? "project-wrapper-titles rigth": "project-wrapper-titles"} >
                     <div className="project-title">
-                        <h1>PROJECT</h1>
+                        <h1>{props.title}</h1>
                     </div>
                     <div className="project-subtitle">
                         <h2>
-                            INFORMAÇÕES DO PROJETO
+                            {props.subtitle}
                         </h2>
                     </div>
                     <div className="project-text">

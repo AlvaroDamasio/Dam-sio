@@ -31,8 +31,8 @@ function App() {
       <Ilustration/>
       <Stacks/>
       <Action/>
-      <Project image={capImagesWebSite} url="/home"/>
-      <Project position="rigth" image={PdvImage} url="/about"/>
+      <Project image={capImagesWebSite} url="https://github.com/AlvaroDamasio/catalogo" title="CAP STORE" subtitle="Um catálogo para loja de bonés"/>
+      <Project position="rigth" image={PdvImage} url="/about" title="PDV" subtitle="Aplicação de controle de caixa"/>
       <Words delay="1"/>
       <Words delay="3"/>
       <Words delay="2"/>
