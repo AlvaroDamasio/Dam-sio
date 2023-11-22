@@ -7,10 +7,11 @@
   --main-four-color: #828282
 
 }
-
-*{
+.App{
   overflow-x: hidden;
+  
 }
+
 
 
 
