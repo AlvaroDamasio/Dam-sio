@@ -15,7 +15,7 @@ export default function Project(props){
                     </div>
                     <div className="project-text">
                         <p>
-                           Informações adicionais desnecessárias 
+                           Informações adicionais
                         </p>
                     </div>
                     <div className="project-button">
