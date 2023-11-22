@@ -4,7 +4,7 @@ export default function TextArea(){
         <div className="text-container">
             <div className="text">
                 <h1>
-                   seu site moderno<br/> 
+                   seu site moderno!<br/> 
                    ESTOU SEMPRE ATENTO AOS PEQUENOS DETALHES QUE CAUSAM<span className="yellow"> UM grande impacto</span> 
                 </h1>
             </div>

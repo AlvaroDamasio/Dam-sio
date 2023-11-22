@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 .hero-title-wrapper{
@@ -69,7 +70,7 @@
     
     .hero-title-wrapper{
         
-        margin-top: 120px;
+        margin-top: 0px;
         height: auto;
         width: 95vw;
         margin-left: 10px;
@@ -78,7 +79,7 @@
     }
     .hero-title-wrapper h1{
         font-size: 40px;
-        
+        margin-top: 80px;
         
     }
     .hero-subtitle h3{
