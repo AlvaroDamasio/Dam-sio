@@ -15,3 +15,8 @@
     font-size: 60px;
     font-family: Staatliches; 
 }
+@media (max-width: 600px){
+    .text h1{
+        font-size: 40px;
+    } 
+}

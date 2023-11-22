@@ -1,7 +1,6 @@
 .ilustrate-container{
     position: relative;
     width: 100vw;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +8,7 @@
     
     
 }
-.ilustrate-container img{
+.object-image{
     width: 300px;
     position: absolute;
     left: -50px;
@@ -27,5 +26,30 @@
     margin-top: 70px;
     border: 5px solid var(--main-dark-color);
     border-radius: 10px;
+    position: relative;
 
+}
+.ilustrate-image img {
+    width: 100%;
+    height: 100%;
+    
+
+}
+@media (max-width: 600px) {
+    .ilustrate-container{
+        height: 50vh;
+    }
+    .ilustrate-image{
+        height: auto;
+        
+    }
+    .ilustrate-image img{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .object-image{
+        width: 200px;
+        top: 80%;
+    }
 }

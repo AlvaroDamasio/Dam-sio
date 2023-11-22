@@ -15,3 +15,14 @@
     font-size: 142px; 
 
 }
+@media (max-width: 600px) {
+    .row{
+        width: 500vw;
+        gap: 20px;
+    }
+    .row h1{
+        font-size: 60px;
+        margin: 0;
+        
+    }
+}

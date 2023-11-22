@@ -55,7 +55,7 @@
 .project-text{
     
     width: 70%;
-    height: 40px;
+    height: 50px;
     margin: 0;
     
 }
@@ -85,14 +85,19 @@
     text-decoration: none;
 }
 .project-wrapper-image{
-    background-color: gray;
+    background-color: var(--main-terciary-color);
     width: 50%;
     height: 100%;
     border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid var(--main-dark-color);
 }
 .project-image{
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 60%;
+    border-radius: 10px;
     
     
 }
@@ -103,4 +108,75 @@
     left: 50%;
     border-radius: 0 20px 20px 0;
     
+}
+
+@media (max-width:600px) {
+    .project-wrapper{
+        width: 90vw;
+        flex-direction: column;
+        margin: 0;
+        
+        
+        
+    }
+    .project-container{
+       align-items: center;
+       justify-content: center;
+       
+       
+    }
+    .project-wrapper-titles{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: 100vw;
+        margin-left: 0;
+        border-radius: 20px;
+        height: 50%;
+    
+       
+    }
+    .project-title{
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .project-title h1{
+        font-size: 30px;
+        margin-left: 0;
+    }
+   
+    .project-text{
+        width: auto;
+        height: 80px;
+        margin: 10px;
+        margin-left: 15px;
+    }
+    .project-button{
+        width: 150px;
+        height: 50px;
+        margin: 10px;
+        
+    }
+    .project-button h1{
+        font-size: 20px;
+    }
+    
+    
+    
+    .project-wrapper-image{
+        height: 30vh;
+        width: 100%;
+        border: none;
+        border-radius: 0;
+    }
+    .project-wrapper-image img{
+        width: 90%;
+        height: auto;
+        margin: 0 ;
+    }
+    .rigth{
+        position: relative;
+        left: 0;
+    }
+
 }

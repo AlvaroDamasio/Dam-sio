@@ -5,7 +5,8 @@ import { TextPlugin } from "gsap/all"
 import {useLayoutEffect} from 'react'
 import { Draggable } from "gsap/Draggable"
 import video from "../../assets/flower.mp4"
-import windowImage from "../../assets/window.png"
+
+import ScrollTrigger from "gsap/ScrollTrigger"
 
 
 
@@ -27,7 +28,7 @@ export default function Home (){
           }, 3);
         */
         
-
+       
        gsap.to('.image-container',{
         scale:52,
         ease:"ease",
@@ -36,7 +37,9 @@ export default function Home (){
             scrub:1,
             start:"top top",
             end: "bottom",
-            pin: true
+            pin: true,
+            markers: true
+
         }
        })
 
@@ -51,7 +54,7 @@ export default function Home (){
                     <video src={video} muted loop></video>
                 </div>
                 <div className="image-container">
-                    <img src={windowImage}></img>
+                    
                 </div>
                 <div class="text-content">
                     <div class="img_txt">

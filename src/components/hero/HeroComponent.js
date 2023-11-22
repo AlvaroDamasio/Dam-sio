@@ -4,15 +4,14 @@ export default function Hero(){
     return(
         <div className="container-hero">
             <div className="hero-title-wrapper">
-                <h1></h1>
-                <h1>OLÁ SOU SEU NOVO WEB-DESIGN</h1>
-                <h1></h1>
+                <h1> SOU SEU NOVO WEB DESIGN</h1> 
             </div>
             <div className="hero-subtitle">
                 <h3>
-                    Lunchbox é a única solução de restaurante aberta e escalável
-                    que permite catering B2B, pedidos multicanais e envolvimento
-                    de hóspedes para operações empresariais em uma única plataforma. 
+                    Meu nome é Alvaro Damasio, sou graduado em análise e desenvolvimento de 
+                    sistemas, tenho experiencia em ui/ux e programação.
+                    Estou pronto para fazer o seu novo site
+                   
                 </h3>
             </div>
             <div className="hero-button">

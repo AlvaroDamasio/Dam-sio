@@ -1,4 +1,5 @@
 import "./action.css"
+import  image from "../../assets/mokup.jpg"
 export default function Action(){
     return(
         <div className="action-container">
@@ -15,7 +16,7 @@ export default function Action(){
                 
             </div>
             <div className="image">
-
+                <img src={image}></img>
             </div>
             
         </div>

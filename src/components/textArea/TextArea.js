@@ -4,7 +4,8 @@ export default function TextArea(){
         <div className="text-container">
             <div className="text">
                 <h1>
-                    ACESSAR OS DADOS DE <span className="yellow">NOSSOS CLIENTES</span> com marmita É MUITO VALIOSO. SOMOS CAPAZES DE <span className="yellow"> ENTENDER NOSSOS CLIENTES E CONECTAR-NOS COM NOSSOS CLIENTES  </span> 
+                   seu site moderno<br/> 
+                   ESTOU SEMPRE ATENTO AOS PEQUENOS DETALHES QUE CAUSAM<span className="yellow"> UM grande impacto</span> 
                 </h1>
             </div>
         </div>

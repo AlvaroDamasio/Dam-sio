@@ -14,5 +14,23 @@
 }
 .stack-container h1{
     font-family: 'staatliches';
-    color: var(--main-four-color)
+    color: var(--main-four-color);
+    
+    white-space: nowrap;
+}
+
+@media (max-width:600px) {
+    .stack-container{
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .stacks{
+        width: 400vw;
+    }
+    .stacks h1{
+        margin: 10px;
+        font-size: 50px ;
+    }
 }
