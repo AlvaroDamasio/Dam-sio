@@ -5,7 +5,7 @@ export default function Action(){
         <div className="action-container">
             <div className="action-wrapper">
                 <div className="action-subtitle">
-                    <h3> VAMOS TRABALHOR JUNTOS</h3>
+                    <h3> VAMOS TRABALHAR JUNTOS</h3>
                 </div>
                 <div className="action-title">
                     <h1>
