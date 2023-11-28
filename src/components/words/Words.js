@@ -14,6 +14,10 @@ export default function Words(props){
             duration: props.delay
             
         }).totalProgress(0.5)
+
+        return ()=>{
+            gsap.killTweensOf(rowRef.current)
+        }
     })
     return(
         <div className="words-container">
