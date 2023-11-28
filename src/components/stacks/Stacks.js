@@ -1,8 +1,8 @@
-import { useLayoutEffect, useRef } from "react"
+import { useLayoutEffect} from "react"
 import "./stacks.css"
 import gsap from "gsap"
 export default function Stacks(){
-  const wordRef = useRef(null)
+  
   useLayoutEffect(()=>{
 
     let tween = gsap.to(".stacks", {
@@ -13,6 +13,10 @@ export default function Stacks(){
       yoyo: true
   
     }).totalProgress(0.5)
+
+    return()=>{
+      gsap.killTweensOf(".stacks")
+    }
   })
     return(
         <div className="stack-container">
