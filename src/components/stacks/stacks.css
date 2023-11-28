@@ -15,7 +15,6 @@
 .stack-container h1{
     font-family: 'staatliches';
     color: var(--main-four-color);
-    
     white-space: nowrap;
 }
 
