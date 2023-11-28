@@ -11,7 +11,7 @@ export default function Words(props){
             duration: 9,
             ease: "linear",
             yoyo: true,
-            duration: props.delay
+            duration: props.duration
             
         }).totalProgress(0.5)
 
