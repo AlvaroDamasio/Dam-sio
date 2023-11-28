@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Damasio/static/css/main.236f7783.css",
-    "main.js": "/Damasio/static/js/main.795569ae.js",
+    "main.css": "/Damasio/static/css/main.7f8291c8.css",
+    "main.js": "/Damasio/static/js/main.10a060ce.js",
     "static/js/787.be55e6d0.chunk.js": "/Damasio/static/js/787.be55e6d0.chunk.js",
     "static/media/mokup.jpg": "/Damasio/static/media/mokup.f9105f9db8e6167bdc8d.jpg",
     "static/media/pdv mockup.jpg": "/Damasio/static/media/pdv mockup.3e621a4c1a70680b28b6.jpg",
@@ -12,12 +12,12 @@
     "static/media/pdvPicture.png": "/Damasio/static/media/pdvPicture.ce45525dcf88e984b7b6.png",
     "static/media/Desktop - 2.png": "/Damasio/static/media/Desktop - 2.ee6822d9b5107955f0c2.png",
     "index.html": "/Damasio/index.html",
-    "main.236f7783.css.map": "/Damasio/static/css/main.236f7783.css.map",
-    "main.795569ae.js.map": "/Damasio/static/js/main.795569ae.js.map",
+    "main.7f8291c8.css.map": "/Damasio/static/css/main.7f8291c8.css.map",
+    "main.10a060ce.js.map": "/Damasio/static/js/main.10a060ce.js.map",
     "787.be55e6d0.chunk.js.map": "/Damasio/static/js/787.be55e6d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.236f7783.css",
-    "static/js/main.795569ae.js"
+    "static/css/main.7f8291c8.css",
+    "static/js/main.10a060ce.js"
   ]
 }
